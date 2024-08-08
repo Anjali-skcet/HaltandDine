@@ -1,0 +1,62 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-image: url("../Images/welcome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.home-container h1{
+  padding-top: 45px;
+  color:white;
+  font-family: "Georgia";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3.1em; 
+}
+
+.but{
+  background-color:#f6eeee;
+  color: #333333;
+  padding: 10px 20px;
+  font-size: medium;
+  border: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:burlywood;
+}
+
+/* Container for the paragraph */
+#restaurant-description {
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 50px auto; /* Center the container */
+  padding: 20px;
+  background-color: rgba(181, 161, 161, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: 'Georgia', serif; /* Elegant font family */
+  color: #333; /* Dark gray text color */
+  line-height: 1.6; /* Comfortable line spacing */
+}
+
+
+/* Paragraph text */
+#restaurant-description p {
+  color: #FAF3E0;
+  font-size: 30px;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-family: "Papyrus";
+}
+
+#restaurant-desc p {
+  color: #FAF3E0;
+  font-size: 100px;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-family: "Lucida Handwriting";
+} 

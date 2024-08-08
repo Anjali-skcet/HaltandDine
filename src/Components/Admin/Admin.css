@@ -1,0 +1,64 @@
+.owner-landing-page {
+    color: #333;
+    background-image: url("../../Images/adminbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Mooli";
+    font-size: 2em;
+    margin: 0;
+}
+
+.header p {
+    font-family: "Mooli";
+    font-size: 1.2em;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.dashboard-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dashboard-item h2 {
+    font-family: "Mooli";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.dashboard-item p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ebbb55;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color:  #eea508;
+}

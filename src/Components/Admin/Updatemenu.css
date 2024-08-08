@@ -1,0 +1,58 @@
+.update-menu {
+    font-family: "Mooli";
+    text-align: center;
+
+    
+
+}
+
+.image{
+  background-image: url("../../Images/adminbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: -1;
+}
+
+.update-menu h1,h2{
+    font-family: "Mooli";
+    font-size: 40px;
+  }
+  .menu-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .menu-form label {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .menu-form input,select {
+    margin-left: 10px;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .menu-form button {
+    padding: 10px;
+    background-color: #e7943c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 100px;
+  }
+  
+  .menu-form button:hover {
+    background-color: #ea7f0c;
+  }
+  
+  .menu-items {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  

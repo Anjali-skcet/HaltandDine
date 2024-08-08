@@ -1,0 +1,36 @@
+.homepage{
+    background-image: url("../Images/Homepage.jpg");
+    filter: brightness(60%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.message {
+    margin-top: 200px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.message h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.Footer{
+    margin-top: 700px;
+}
+
+.feature-card{
+    color: black;
+}

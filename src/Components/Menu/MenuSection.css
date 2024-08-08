@@ -1,0 +1,25 @@
+.menu-section {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #e9deab;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgba(26, 25, 24, 0.4);
+}
+
+.menu-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}

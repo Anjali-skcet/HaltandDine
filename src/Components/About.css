@@ -1,0 +1,125 @@
+.aboutsec{
+    background-image: url("../Images/navsection.jpg");
+    filter: brightness(60%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px;
+    width: 100vw;
+}
+
+.aboutnav{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutlist {
+    font-family: var(--font-josefin_sans),sans-serif;   
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 34px;
+    padding-left: 500px;
+}
+
+.aboutlist li {
+    margin-left: 20px;
+    font-size: 5px;
+}
+
+.aboutlist a {  
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.aboutlist a:hover {
+    color: red;   
+}
+
+  .about-us {
+    background-image: url("../Images/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+    background-attachment: fixed;
+    margin: 0;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+    color: #fefefe;
+    font-family: "Bernadette Rough";
+  }
+  
+  .intro h1 {
+    font-family: "Bernadette Rough";
+    font-size: 70px;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  
+  .features {
+    padding: 2rem 0;
+  }
+  
+  .features h2 {
+    font-family: "Bernadette Rough";
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .features p {
+    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card i {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: #ff6f61;
+  }
+  
+  .feature-card h3 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card p {
+    font-size: 25px;
+    color: #666;
+  }
+  

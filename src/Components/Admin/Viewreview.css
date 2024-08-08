@@ -1,0 +1,25 @@
+.view-reviews {
+    padding: 20px;
+  }
+  
+  .view-reviews ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .view-reviews li {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .view-reviews h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .view-reviews p {
+    margin: 5px 0 0;
+  }
+  
